@@ -1,0 +1,21 @@
+
+#ifndef __CONFIG_H
+#define __CONFIG_H
+
+// Rename this file to config.h and update the options below for your broker.
+
+#include "topicmap.h"
+
+#define MQTT_CLIENT_ID  "actuator"
+#define MQTT_USER      	"user"
+#define MQTT_PASS 	"supersecret"
+
+// Update this for the number of pins you want to control
+#define MAP_LEN   1
+
+// Add pin to base topic mappings here
+TOPIC_MAP topicmap[MAP_LEN] = {
+    {"/test/actuator", 12},
+};
+
+#endif
