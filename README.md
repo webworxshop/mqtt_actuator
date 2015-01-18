@@ -1,4 +1,4 @@
 
-# MQTT Actuator for Ardiuno
+# MQTT Actuator for Arduino
 
 More details coming soon.
