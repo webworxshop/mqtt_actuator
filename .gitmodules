@@ -1,3 +1,6 @@
 [submodule "libraries/pubsubclient"]
 	path = libraries/pubsubclient
 	url = https://github.com/knolleary/pubsubclient.git
+[submodule "libraries/arduino_serial_client"]
+	path = libraries/arduino_serial_client
+	url = https://github.com/webworxshop/arduino_serial_client.git
