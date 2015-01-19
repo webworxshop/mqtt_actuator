@@ -48,7 +48,7 @@ void doConnect(void)
 
     while(!client.connect(MQTT_CLIENT_ID, MQTT_USER, MQTT_PASS, 
         willTopic, 0, true, "offline"));
-    client.publish(willTopic, "online");
+    client.publish(willTopic, "online", 6, true);
 }
 
 void setup()
